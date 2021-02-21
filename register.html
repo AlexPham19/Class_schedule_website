@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="css/style-register.css">
+</head>
+<script src="js/script.js"></script>
+<style>
+    body {
+        background-color: #f8ceec;
+        background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+
+    }
+</style>
+<div>
+
+    <body>
+        <h3>MENU</h3>
+        <a href="My Classes.html" style="text-decoration: none;">Go back to main page</a>
+
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Account information</legend>
+                <table>
+
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="text" name="tentk" id="tentk" autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="mk" id="mk"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm password:</td>
+                        <td><input type="password" id="xnmk"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Personal information </legend>
+                <table>
+                    <tr>
+                        <td>Full name:</td>
+                        <td><input type="text" name="hoten" id="hoTen"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number:</td>
+                        <td><input type="text" name="sdt" id="sdt"></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>
+                            <input type="text" name="number" id="number" placeholder="Home number">
+                            <input type="text" name="street" id="street" placeholder="Street">
+                            <input type="text" name="city" id="city" placeholder="City">
+                            <input type="text" name="states" id="states" placeholder="State Abbreviation">
+                            <input type="text" name="postalcode" id="postalcode" placeholder="Postal Code">
+                            <input type="text" name="country" id="country" placeholder="Country">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Occupation:</td>
+                        <td>
+                            <select name="nghenghiep" id="nghe">
+                                <option value="Student">Student</option>
+                                <option value="Teacher">Teacher</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button" onclick="DangKi()">Register</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+        <h3>Registration</h1>
+            <fieldset>
+                <tr>
+                    <td>
+                        <p id="a1" style="font-weight: bold;">Username:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a2" style="font-weight: bold;">Password:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a3" style="font-weight: bold;">Full name:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a4" style="font-weight: bold;">Email:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a5" style="font-weight: bold;">Phone number:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a6" style="font-weight: bold;">Address:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="a7" style="font-weight: bold;">Occupation:</p>
+                    </td>
+                </tr>
+            </fieldset>
+
+    </body>
+</div>
+
+</html>
