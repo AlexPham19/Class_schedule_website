@@ -1,2 +1,5 @@
-# RevUC-2
-This is a website to store online class links, view class schedules, and modify the schedule for the user's convenience
+# RevolutionUC - Class Schedule Website
+This is a website dedicated to reduce stress in managing online schedule
+Functions: 
+- Store Links to online classes
+- View/Edit your own class schedule
